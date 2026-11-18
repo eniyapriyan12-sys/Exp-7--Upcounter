@@ -37,7 +37,7 @@ module up_counter (
     end
 endmodule
 
-```
+
 ## Testbench Program
 module tb7;
 
