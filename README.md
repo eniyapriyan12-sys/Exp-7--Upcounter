@@ -20,9 +20,8 @@ else count <= count;                // holds present value
 
 ## Design / RTL Program
 
-// gedit up_counter.v
- ```
 module up_counter (
+
     input  wire       clk,    // clock
     input  wire       rst,    // asynchronous active-high reset
     input  wire       en,     // count enable
@@ -40,12 +39,6 @@ endmodule
 
 ```
 ## Testbench Program
-
-// gedit tb7.v
-
-
-
- 
 module tb7;
 
     reg  clk, rst, en;
